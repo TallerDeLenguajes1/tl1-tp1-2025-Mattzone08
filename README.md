@@ -27,3 +27,7 @@ _Es recomendable crear y configurar el archivo .gitignore al principio del proye
 - /.idea/: Ignorar la carpeta de configuración de JetBrains (como IntelliJ IDEA o WebStorm).
 
 - *.swp: Ignorar archivos temporales de Vim.
+
+### ¿a qué se debe?, ¿Qué obtiene en el punto 4? 
+
+_Se debe a que al agregar el .gitignore, empezaremos a dejar de subir al repositorio archivos que no nos interesa subir, haciendo que cada vez que hacemos commit luego de esto sea para actualizar el contenido de los archivos ya subidos. Mientras que en el punto 4 al hacer el commit y el push agregaremos otro archivo C al repositorio._
